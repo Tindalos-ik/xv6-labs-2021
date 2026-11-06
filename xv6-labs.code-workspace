@@ -1,0 +1,26 @@
+{
+  "folders": [
+    {
+      "name": "实验代码",
+      "path": ".."
+    },
+    {
+      "name": "实验笔记",
+      "path": "."
+    }
+  ],
+  "settings": {
+    "git.autoRepositoryDetection": true,
+    "git.detectWorktrees": true,
+    "git.openRepositoryInParentFolders": "never",
+    "files.exclude": {
+      "note": true
+    },
+    "terminal.integrated.cwd": "${workspaceFolder:实验代码}"
+  },
+  "extensions": {
+    "recommendations": [
+      "ms-vscode.cpptools"
+    ]
+  }
+}
